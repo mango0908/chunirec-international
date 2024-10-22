@@ -1,13 +1,12 @@
-# Chunithm Tools
+# Chunirec-International
 
-For more information please refer to [this page](https://dogeon188.github.io/chuni-tools/?lang=en_US)
+For more information please refer to [this page](https://mango0908.github.io/chunirec-international/?lang=en_US)
 
-若要取得更多資訊，請參考[此頁面](https://dogeon188.github.io/chuni-tools/?lang=zh_TW)
+若要取得更多資訊，請參考[此頁面](https://mango0908.github.io/chunirec-international/?lang=zh_TW)
 
 ## Credits & about this project
 
-This project is a remake of [chuni_new_intl_viewer](https://github.com/Dogeon188/chuni_new_intl_viewer). The old project is deprecated, please don't mind those dirty codes.
-
+This project is a remake of [chuni-tools](https://github.com/Dogeon188/chuni-tools).
 This project is heavily inspired by [@kyroslee/chuni_intl_viewer](https://github.com/kyroslee/chuni_intl_viewer) and [@myjian/mai-tools](https://github.com/myjian/mai-tools).
 
 The chart constant data is from [CHUNITHM譜面定数メインフレーム](https://twitter.com/RCMF_chunithm).
