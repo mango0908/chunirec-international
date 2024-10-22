@@ -26,7 +26,7 @@ import { chuniNet } from "@/common/const"
 
     function insertOpenerBtn() {
         const b = d.createElement("a")
-        b.className = "chuni-tool-btn"
+        b.className = "chunirec-international-btn"
         const s = d.createElement("link")
         s.rel = "stylesheet"
         s.href = getScriptHost("fetch-all") + "/common/styles/inject.css"
