@@ -32,7 +32,7 @@ import { parseRecord } from "@/common/record"
 
     function insertDownloadBtn() {
         const b = d.createElement("button")
-        b.className = "chuni-tool-btn"
+        b.className = "chunirec-international-btn"
         const s = d.createElement("link")
         s.rel = "stylesheet"
         s.href = getScriptHost("export-csv") + "/common/styles/inject.css"
