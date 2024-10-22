@@ -2,10 +2,10 @@ import { getInitialLang, Language } from "@/common/lang"
 import { getScriptHost } from "@/common/web"
 import { chuniNet, chuniNetBase } from "@/common/const"
 
-(function (d: Document, w: Window & { chuniTools: boolean }) {
+(function (d: Document, w: Window & { chunirecinternational: boolean }) {
     const UIString = {
         [Language.en_US]: {
-            alreadyRun: "Please refresh the page before running CHUNI TOOLS again!",
+            alreadyRun: "Please refresh the page before running chunirec-international again!",
             wrongBase: `Oops! Looks like you are on the wrong page.\nPlease open CHUNITHM-NET Intl. (${chuniNetBase}) and login, then try again.`
         },
         [Language.zh_TW]: {
@@ -15,11 +15,11 @@ import { chuniNet, chuniNetBase } from "@/common/const"
     }[getInitialLang()]
 
 
-    if (w.chuniTools) {
+    if (w.chunirecinternational) {
         alert(UIString.alreadyRun)
         return
     }
-    w.chuniTools = true
+    w.chunirecinternational = true
 
     if (w.location.hostname !== chuniNetBase) {
         alert(UIString.wrongBase)
@@ -29,7 +29,7 @@ import { chuniNet, chuniNetBase } from "@/common/const"
 
     function appendScript(script: string) {
         const s = d.createElement("script")
-        s.src = `${getScriptHost("chuni-tools")}/scripts/${script}.js`
+        s.src = `${getScriptHost("chunirec-international")}/scripts/${script}.js`
         d.body.append(s)
     }
 
