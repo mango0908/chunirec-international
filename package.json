@@ -1,17 +1,17 @@
 {
-  "name": "chuni_tools",
-  "version": "1.1.7",
-  "description": "Variety of tools for the arcade game CHUNITHM (Intl. Ver.)",
+  "name": "chunirec-international",
+  "version": "1.0.0",
+  "description": "Record for CHUNITHM International version",
   "scripts": {
     "build": "webpack",
     "dev": "set NODE_ENV=development && webpack --env development --watch",
     "devmac": "export NODE_ENV=development && webpack --env development --watch"
   },
-  "author": "Dogeon188",
+  "author": "mango0908",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dogeon188/chuni-tools.git"
+    "url": "git+https://github.com/mango0908/chunirec-international.git"
   },
   "devDependencies": {
     "@tsconfig/svelte": "^2.0.1",
