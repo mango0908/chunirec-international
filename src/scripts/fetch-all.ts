@@ -9,7 +9,7 @@ import { chuniNet } from "@/common/const"
         [Language.en_US]: {
             pleaseLogin: "Please login to CHUNITHM-NET first.",
             needReload: "Oops! Something went wrong, please reload CHUNITHM-NET.",
-            analyzeRating: "Analyze Rating"
+            analyzeRating: "ANALYZE RECORD"
         },
         [Language.zh_TW]: {
             pleaseLogin: "請先登入 CHUNITHM-NET 再執行本程式。",
